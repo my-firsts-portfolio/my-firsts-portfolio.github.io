@@ -1,0 +1,14 @@
+@import './reset';
+@import './colors';
+@import './breakpoints';
+@import './text_setup';
+@import './navbar';
+@import './section-header';
+@import './section-footer';
+@import './section-web';
+@import './section-school';
+
+.section-navbar-wrapper, header, footer > .section-footer-wrapper, section {
+    max-width: 1360px;
+    margin: auto;
+}

@@ -1,0 +1,39 @@
+.section-navbar {
+    width: 100%;
+    background-color: $dark-color;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+
+    &-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &__logo {
+            span {
+                color: #fff;
+                text-decoration: none;
+                font-size: 27px;
+                font-family: $grenze;
+            }
+        }
+        
+        &__links {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 50%;
+
+            &__link {
+                a {
+                    color: #fff;
+                    text-decoration: none;
+                    font-size: 19px;
+                    font-family: $lato;
+                }
+            }
+        }
+    }
+}
