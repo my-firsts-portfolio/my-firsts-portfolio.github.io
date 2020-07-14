@@ -1,0 +1,58 @@
+.section-header {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .herobox {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            width: 50%;
+
+            &__title {
+                h2 {
+                    font-size: 25px;
+                    font-family: $lato;
+                    color: #22D1EE;
+                    margin-left: 10px;
+                }
+            }
+            &__subtitle {
+                h1 {
+                    font-size: 45px;
+                    font-family: $grenze;
+                    color: $sea-color;
+                    margin-left: 10px;
+                }
+            }
+            &__calltoaction {
+                button {
+                    margin-top: 20px;
+                    background-color: $sea-color;
+                    color: white;
+                    border-radius: 5px;
+                    font-family: $lato;
+                    font-size: 14px;
+                    border: $sea-color 5px solid;
+                    padding: 20px;
+                    margin-left: 10px;
+                }
+            }
+        }
+        &__image {
+            background: url('../IMG/blog.png');
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 550px;
+            height: 550px;
+        }
+    }
+}

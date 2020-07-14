@@ -1,0 +1,31 @@
+.section-school {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &__subtitle {
+            width: 50%;
+            height: 100%;
+            p {
+                color: $dark-color;
+                font-family: $grenze;
+                font-size: 35px;
+            }
+        }
+        &__image {
+            background: url('../IMG/school.png');
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 550px;
+            height: 550px;
+            margin-top: 150px;
+        }
+    }
+}

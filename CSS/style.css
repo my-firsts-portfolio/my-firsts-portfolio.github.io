@@ -505,8 +505,176 @@ a {
   background: url("../IMG/blog.png");
   background-repeat: no-repeat;
   background-size: contain;
-  width: 400px;
-  height: 400px;
+  width: 550px;
+  height: 550px;
+}
+
+.section-footer {
+  height: 20vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #0E153A;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-footer-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-footer-wrapper__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section-footer-wrapper__title h3 {
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  color: white;
+  margin-top: 5px;
+}
+
+.section-footer-wrapper__title .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 30px;
+  width: 150px;
+}
+
+.section-footer-wrapper__title .icons .wa {
+  background: url("../IMG/wa.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 30px;
+  width: 30px;
+}
+
+.section-footer-wrapper__title .icons .vk {
+  background: url("../IMG/vk.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 30px;
+  width: 30px;
+}
+
+.section-footer-wrapper__title .icons .fb {
+  background: url("../IMG/fb.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 30px;
+  width: 30px;
+}
+
+.section-web {
+  height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-web-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-web-wrapper__image {
+  background: url("../IMG/person_and_IT.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 550px;
+  width: 550px;
+}
+
+.section-web-wrapper__subtitle {
+  width: 50%;
+  height: 100%;
+}
+
+.section-web-wrapper__subtitle p {
+  color: #0E153A;
+  font-family: "Grenze Gotisch", cursive;
+  font-size: 35px;
+}
+
+.section-school {
+  height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-school-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-school-wrapper__subtitle {
+  width: 50%;
+  height: 100%;
+}
+
+.section-school-wrapper__subtitle p {
+  color: #0E153A;
+  font-family: "Grenze Gotisch", cursive;
+  font-size: 35px;
+}
+
+.section-school-wrapper__image {
+  background: url("../IMG/school.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 550px;
+  height: 550px;
+  margin-top: 150px;
 }
 
 .section-navbar-wrapper, header, footer > .section-footer-wrapper, section {
