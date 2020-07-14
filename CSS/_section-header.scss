@@ -31,6 +31,10 @@
                     font-family: $grenze;
                     color: $sea-color;
                     margin-left: 10px;
+
+                    @include media('<=phone') {
+                        font-size: 35px;
+                    }
                 }
             }
             &__calltoaction {
@@ -53,6 +57,18 @@
             background-size: contain;
             width: 550px;
             height: 550px;
+
+            @include media('<=tablet') {
+                width: 300px;
+                height: 300px;
+            }
+            @include media('<=phone') {
+                position: absolute;
+                top: 6%;
+                left: 50%;
+                width: 150px;
+                height: 150px;
+            }
         }
     }
 }

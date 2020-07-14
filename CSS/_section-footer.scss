@@ -17,6 +17,10 @@
                 font-family: $lato;
                 color: white;
                 margin-top: 5px;
+
+                @include media('<=phone') {
+                    font-size: 17px;
+                }
             }
             .icons {
                 display: flex;
