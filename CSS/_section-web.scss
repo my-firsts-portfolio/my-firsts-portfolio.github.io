@@ -69,6 +69,7 @@
                 color: $dark-color;
                 font-family: $grenze;
                 font-size: 35px;
+                text-decoration: none;
 
                 @include media('<=tablet') {
                     margin-bottom: 70px;

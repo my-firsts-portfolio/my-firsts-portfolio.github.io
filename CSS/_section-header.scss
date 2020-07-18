@@ -38,7 +38,8 @@
                 }
             }
             &__calltoaction {
-                button {
+                margin-top: 60px;
+                a {
                     margin-top: 20px;
                     background-color: $sea-color;
                     color: white;
@@ -48,6 +49,8 @@
                     border: $sea-color 5px solid;
                     padding: 20px;
                     margin-left: 10px;
+                    text-decoration: none;
+                    margin-top: 30px;
                 }
             }
         }
@@ -64,7 +67,7 @@
             }
             @include media('<=phone') {
                 position: absolute;
-                top: 6%;
+                top: 8%;
                 left: 50%;
                 width: 150px;
                 height: 150px;
